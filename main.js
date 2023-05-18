@@ -10,30 +10,35 @@ function createCardElement(cardData) {
     const descriptionContainer = document.createElement("div");
     descriptionContainer.classList.add("description-container");
 
-    const description = document.createElement("p");
-    description.classList.add("description");
-    description.innerHTML = `
-        <strong>Effect:</strong> ${cardData.description.effect}<br>
-        <strong>Backlash:</strong> ${cardData.description.backlash}
-    `;
-
-    const flavorText = document.createElement("p");
-    flavorText.classList.add("flavor-text");
-    flavorText.textContent = cardData.flavor_text;
+    const healthContainer = document.createElement("div");
+    healthContainer.classList.add("health-container");
 
     const health = document.createElement("div");
     health.classList.add("health");
     health.textContent = cardData.health;
 
+    const description = document.createElement("p");
+    description.classList.add("description");
+    description.innerHTML = `
+    <strong>Effect:</strong> ${cardData.description.effect}<br>
+    <strong>Backlash:</strong> ${cardData.description.backlash}
+    `;
+    
+    const flavorText = document.createElement("span");
+    flavorText.classList.add("flavor-text");
+    flavorText.textContent = cardData.flavor_text;
+
+    // healthContainer.appendChild(health);
+    // descriptionContainer.appendChild(healthContainer);
     descriptionContainer.appendChild(description);
     descriptionContainer.appendChild(flavorText);
 
     card.appendChild(title);
     card.appendChild(descriptionContainer);
-    card.appendChild(health);
 
     return card;
 }
+
 
 async function loadCardData() {
     const response = await fetch("./data/enemies.json");
