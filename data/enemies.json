@@ -3,7 +3,7 @@
     "title": "Orc Warrior",
     "description": {
       "effect": "Spawns 1 Orc Warrior in the room.",
-      "backlash": "If not defeated, the Orc Warrior lets out a fearsome battle cry that reduces the defense of all players on the same floor by 1."
+      "backlash": "The Orc Warrior lets out a fearsome battle cry that reduces the defense of all players on the same floor by 1."
     },
     "flavor_text": "A hulking brute wielding a massive battle-axe, the Orc Warrior is a fearsome foe.",
     "image": "./images/Orc_Warrior.png",
@@ -13,7 +13,7 @@
     "title": "Necromancer",
     "description": {
       "effect": "Spawns 1 Necromancer in the room.",
-      "backlash": "If not defeated, the Necromancer casts a curse on all players on the same floor, reducing their maximum health by 1."
+      "backlash": "The Necromancer casts a curse on all players on the same floor, reducing their maximum health by 1."
     },
     "flavor_text": "A master of dark magic, the Necromancer commands an army of undead minions.",
     "image": "./images/Necromancer.png",
@@ -23,7 +23,7 @@
     "title": "Fire Elemental",
     "description": {
       "effect": "Spawns 1 Fire Elemental in the room.",
-      "backlash": "If not defeated, the Fire Elemental sets the room on fire. Each turn, all players on the same floor take 1 damage until the fire is extinguished."
+      "backlash": "The Fire Elemental sets the room on fire. Each turn, all players on the same floor take 1 damage until the fire is extinguished."
     },
     "flavor_text": "A being of pure flame and fury, the Fire Elemental scorches everything in its path.",
     "image": "./images/Fire_Elemental.png",
@@ -33,7 +33,7 @@
     "title": "Lich",
     "description": {
       "effect": "Spawns 1 Lich in the room.",
-      "backlash": "If not defeated, the Lich drains 1 health point from all players on the same floor and adds it to its own health."
+      "backlash": "The Lich drains 1 health point from all players on the same floor and adds it to its own health."
     },
     "flavor_text": "An undead sorcerer of immense power, the Lich commands legions of undead minions.",
     "image": "./images/Lich.png",
@@ -43,7 +43,7 @@
     "title": "Goblin Thief",
     "description": {
       "effect": "Spawns 1 Goblin Thief in the room. ",
-      "backlash": "If not defeated, the Goblin Thief steals 1 coin from all players on the same floor each turn."
+      "backlash": "The Goblin Thief steals 1 coin from all players on the same floor each turn."
     },
     "flavor_text": "A sneaky and cunning creature, the Goblin Thief is always on the lookout for easy prey.",
     "image": "./images/Goblin_Thief.png",
@@ -53,7 +53,7 @@
     "title": "Chaos Mage",
     "description": {
       "effect": "Spawns 1 Chaos Mage in the room. ",
-      "backlash": "If not defeated, the Chaos Mage casts a spell of confusion on all players on the same floor. At the start of their turn, each player must discard a card and draw a new one."
+      "backlash": "The Chaos Mage casts a spell of confusion on all players on the same floor. At the start of their turn, each player must discard a card and draw a new one."
     },
     "flavor_text": "A master of chaos magic, the Chaos Mage thrives on disorder and unpredictability.",
     "image": "./images/Chaos_Mage.png",
@@ -63,7 +63,7 @@
     "title": "Giant Spider",
     "description": {
       "effect": "Spawns 1 Giant Spider in the room.",
-      "backlash": "If not defeated, the Giant Spider ensnares all players on the same floor in a web, reducing their movement speed by 1 for two turns."
+      "backlash": "The Giant Spider ensnares all players on the same floor in a web, reducing their movement speed by 1 for two turns."
     },
     "flavor_text": "A monstrous eight-legged beast, the Giant Spider lies in wait for unsuspecting victims.",
     "image": "./images/Giant_Spider.png",
@@ -73,7 +73,7 @@
     "title": "Stone Golem",
     "description": {
       "effect": "Spawns 1 Stone Golem in the room.",
-      "backlash": "If not defeated, the Stone Golem slams the ground, causing a tremor that stuns all players on the same floor for one turn."
+      "backlash": "The Stone Golem slams the ground, causing a tremor that stuns all players on the same floor for one turn."
     },
     "flavor_text": "A living construct made of rock and earth, the Stone Golem is an unyielding force of nature.",
     "image": "./images/Stone_Golem.png",
@@ -83,7 +83,7 @@
     "title": "Water Nymph",
     "description": {
       "effect": "Spawns 1 Water Nymph in the room.",
-      "backlash": "If not defeated, the Water Nymph floods the room, causing all players on the same floor to discard a card and draw a new one."
+      "backlash": "The Water Nymph floods the room, causing all players on the same floor to discard a card and draw a new one."
     },
     "flavor_text": "A graceful and elusive spirit, the Water Nymph controls the flow of water to bewilder her foes.",
     "image": "./images/Water_Nymph.png",

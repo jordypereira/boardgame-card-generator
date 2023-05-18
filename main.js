@@ -19,9 +19,7 @@ function createCardElement(cardData) {
 
     const description = document.createElement("p");
     description.classList.add("description");
-    description.innerHTML = `
-    <strong>Effect:</strong> ${cardData.description.effect}<br>
-    <strong>Backlash:</strong> ${cardData.description.backlash}
+    description.innerHTML = `${cardData.description.backlash}
     `;
     
     const flavorText = document.createElement("span");
